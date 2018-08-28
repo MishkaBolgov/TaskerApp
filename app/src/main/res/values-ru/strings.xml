@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tasker</string>
+    <string name="register">Регистрация</string>
+    <string name="signin">Войти</string>
+    <string name="signout">Выйти</string>
+    <string name="archive">Архив</string>
+    <string name="active">Активные</string>
+    <string name="done">Выполненные</string>
+    <string name="toarchive">В архив</string>
+    <string name="todone">Сделано</string>
+    <string name="toactive">В активные</string>
+    <string name="moved_to_done">Перемещено в сделаные</string>
+    <string name="moved_to_archive">Перемещено в архив</string>
+    <string name="moved_to_active">Перемещено в активные</string>
+    <string name="cancel">Отмена</string>
+    <string name="in_recording">Запись</string>
+    <string name="recognition">Распознавание</string>
+
+    <string name="network_connection_error_alert_title">Ошибка подключения</string>
+    <string name="sign_in_require_network_alert_message">Для авторизации необходимо подключение к интернету</string>
+    <string name="sign_up_require_network_alert_message">Для регистрации необходимо подключение к интернету</string>
+
+    <string name="password_hint">Пароль</string>
+    <string name="confirm_password_hint">Подтвердите пароль</string>
+    <string name="password_confirm_error_title">Ошибка при вводе пароля</string>
+    <string name="password_confirm_error_message">Проверьте пароль</string>
+    <string name="sign_in_error_title">Ошибка входа</string>
+    <string name="sign_in_error_message">Проверьте почту и пароль</string>
+    <string name="not_recognized_alert_title">Ошибка распознования</string>
+    <string name="not_recognized_alert_message">Не удалось распознать текст. Попробуйте говорить громче и использовать более короткие фразы</string>
+    <string name="recognition_error_alert_title">Ошибка распознования</string>
+    <string name="recording_tip_title">Ошибка записи</string>
+    <string name="recording_tip_message">Чтобы записать заголовок задачи - удерживайте кнопку</string>
+    <string name="recognition_require_network_alert_title">Ошибка распознования</string>
+    <string name="recognition_require_network_alert_message">Для распознавания речи необходимо подключение к интернету</string>
+    <string name="vocalization_require_network_alert_title">Ошибка озвучивания</string>
+    <string name="vocalization_require_network_alert_message">Для озвучивания задачи необходмо подключение к интернету</string>
+    <string name="vocalization_error_alert_title">Ошибка озвучивания</string>
+    <string name="invalid_email_alert_title">Неверный email</string>
+    <string name="invalid_password_alert_title">Неверный пароль</string>
+
+</resources>

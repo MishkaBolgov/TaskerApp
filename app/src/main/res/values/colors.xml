@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="app_background">#cfcfcf</color>
+    <color name="local_task_background">#dcdcdc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="opaque_white">#96ffffff</color>
+    <color name="black">#000000</color>
+    <color name="opaque_black">#96000000</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="primaryColor">#212121</color>
+    <color name="primaryLightColor">#484848</color>
+    <color name="primaryDarkColor">#000000</color>
+    <color name="secondaryColor">#c2185b</color>
+    <color name="secondaryLightColor">#fa5788</color>
+    <color name="secondaryDarkColor">#8c0032</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+
+    <color name="taskDoneActionBackground">#475c41</color>
+    <color name="taskArchiveActionBackground">#939393</color>
+    <color name="taskActiveActionBackground">#375da9</color>
+    <color name="waveColor">#ffffff</color>
+    <color name="updated_at_background">#969696</color>
+
+</resources>

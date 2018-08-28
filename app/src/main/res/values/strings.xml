@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Tasker</string>
+    <string name="archive_title" translatable="false">Archive</string>
+    <string name="speechkit_api_key" translatable="false">3620f08c-7ebd-4a56-927f-082d1459c4c2</string>
+
+
+    <string name="account_type" translatable="false">tasker</string>
+    <string name="auth_label" translatable="false">Tasker Auth</string>
+
+    <string name="signin">Sign In</string>
+    <string name="signout">Sign Out</string>
+    <string name="archive">Archive</string>
+    <string name="active">Active</string>
+    <string name="done">Done</string>
+    <string name="register">Sign Up</string>
+    <string name="toarchive">Archive</string>
+    <string name="todone">Done</string>
+    <string name="toactive">To active</string>
+    <string name="moved_to_done">Moved to done</string>
+    <string name="moved_to_archive">Moved to archive</string>
+    <string name="moved_to_active">Moved to active</string>
+    <string name="cancel">Cancel</string>
+    <string name="in_recording">Recording</string>
+    <string name="recognition">Recognition</string>
+
+    <string name="network_connection_error_alert_title">Connection error</string>
+    <string name="sign_in_require_network_alert_message">Turn on internet to sign in</string>
+    <string name="sign_up_require_network_alert_message">Turn on internet to sign up</string>
+
+    <string name="email_hint" translatable="false">example@mail.ru</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm password</string>
+
+    <string name="password_confirm_error_title">Password confirm error</string>
+    <string name="password_confirm_error_message">Password confirm should match password</string>
+    <string name="sign_in_error_title">Sign in error</string>
+    <string name="sign_in_error_message">Check email and password</string>
+    <string name="not_recognized_alert_title">Recognition error</string>
+    <string name="not_recognized_alert_message">Text hasn\'t been recognized. Please try speak louder and use shorter sentences</string>
+    <string name="recognition_error_alert_title">Recognition error</string>
+    <string name="recording_tip_title">Recording error</string>
+    <string name="recording_tip_message">In order to record task title, keep record button pressed</string>
+    <string name="recognition_require_network_alert_title">Rcognition error</string>
+    <string name="recognition_require_network_alert_message">Recognition require network connection</string>
+    <string name="vocalization_require_network_alert_title">Vocalization error</string>
+    <string name="vocalization_require_network_alert_message">Vocalization require network connection</string>
+    <string name="vocalization_error_alert_title">Vocalization error</string>
+    <string name="invalid_email_alert_title">Invalid email</string>
+    <string name="invalid_password_alert_title">Invalid password</string>
+</resources>

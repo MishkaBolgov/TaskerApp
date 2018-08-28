@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolbarStyle" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btnRecordTitle"
+        android:background="@null"
+        android:enabled="false"
+        android:hint="Title"
+        android:textColorHint="@color/opaque_black"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/toolbar"/>
+
+    <Button
+        android:id="@+id/btnRecordTitle"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/record"
+        android:visibility="invisible"
+        android:layout_below="@+id/toolbar" />
+
+    <EditText
+        android:id="@+id/etBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/btnRecordText"
+        android:background="@null"
+        android:enabled="false"
+        android:gravity="top|start"
+        android:hint="Task"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_below="@+id/etTitle"
+        android:textColorHint="@color/opaque_black"/>
+
+
+    <Button
+        android:id="@+id/btnRecordText"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/record"
+        android:visibility="invisible"
+        android:layout_below="@id/btnRecordTitle"/>
+
+
+    <include layout="@layout/recognition_indicator" />
+
+    <TextView
+        android:id="@+id/tvUpdatedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@color/updated_at_background"/>
+
+</RelativeLayout>
